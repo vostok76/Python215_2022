@@ -1094,4 +1094,6 @@
 # display_info(age=23, name="Ira")
 # #display_info("Igor", age=23, name="Ira")
 
-print("hello")
+#print("hello")
+
+print("Проверка репозитория")
