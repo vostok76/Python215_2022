@@ -925,15 +925,173 @@
 #                                         #
 ###########################################
 
-#print("hello")
+# print("hello")
 
-print("проверка репозитория")
-
-
-
-
+# print("проверка репозитория")
+#
+# print("hello")
 
 
+# ##########################################
+#
+#           Занятие 8. Python 29.01.2023
+#
+###########################################
+# from math import pi
+# 
+# r = int(input ("Введите радиус окружности: "))
+# s = round(2 * pi *r,2)
+# print(s)
 
 
+# import time
+# import locale
+# locale.setlocale(locale.LC_ALL, "ru")
+# print(dir(time))
 
+
+# s = time.time()
+# print(s)
+#
+# local = time.ctime(s)
+# print(local)
+#
+#
+# res = time.localtime()
+# print(res)
+# print(res.tm_day, ".0", res.tm_mon, ".", res.tm_year, sep="")
+#
+# print(time.strftime("%d.%m.%Y"))
+# print(time.strftime("Today is %B %d(%A), %Y."))
+# print(time.strftime("Сегодня: %B %d(%A), %Y."))
+
+
+# pause = 5
+# print("программа запущена")
+# time.sleep(pause)
+# print("программа завершена")#text = input("название напоминания: ")
+
+# start = time.time()
+# time.sleep(5)
+
+#    функции
+# print()
+#
+#
+# def hello():
+#     print("Hello", name)
+#
+#
+# hello("sergey")
+# hello("Irina")
+
+
+# def get_sum(a, b):
+#     print("сумма: ")
+#     return a + b
+#
+#
+# x = 2
+# y = 5
+# res = get_sum(x, y)
+#
+# # get_sum('2', '5')
+# print(res)
+
+# def symbol(count, a, b):
+#     for i in range(count):
+#         if i % 2 == 0:
+#             print(a, end="")
+#     else:
+#         print(b, end="")
+#     print()
+#
+#
+# symbol(9, "+", "-")
+# symbol(7, "X", "0")
+
+# print(int(input("Ведите число а :")))
+# print(int(input("Ведите число b:")))
+# def res(a,b):
+#     if a>b:
+#         return a-b
+#     else:
+#         return a+b
+#     return "чиcла равны"
+#
+# print(res(a,b))
+
+# def cub(a):
+#     return a**3
+#
+#
+# for i in range(1, 11):
+#     print(i, "в кубе= ", cub(i))
+
+# def change(lst):
+#     return lst
+#
+#
+# print(change([1, 2, 3]))
+# print(change([9, 12, 33, 54, 105]))
+# print(change(["с", "л", "о", "н"]))
+
+
+# def func(x, y)
+#     if x > y:
+#         return True
+#     else:
+#         return False
+#
+#     print(func(10, 5))
+#     print(func(10, 15))
+#     a = 10
+#     b = 15
+#
+#     if func(a, b):
+#         print("gthвое число больше второго")
+#     else:
+#         print("второе число больше первого")
+
+# def chek_password(password):
+#     has_upper = False
+#
+#     for ch in password:
+#         if "A" <= ch <= "Z":
+#             has_upper = True
+#
+#     if len(password) >= 8 and has_upper:
+#         return True
+#     return False
+#
+#
+# p = input("введите пароль: ")
+# if chek_password(p):
+#     print("Это надёжный пароль")
+# else:
+#     print("Это ненадёжный пароль")
+
+
+# def get_sum(a=0, b=0, c=0, d=0):
+#     return a + b + c + d
+#
+#
+# print(get_sum(1, 5, 2, 7))
+# print(get_sum(1, 5, 2))
+# print(get_sum(1, 5))
+# t = 2
+# print(get_sum(1, 5, d=t))
+# print("Результат", get_sum(2, d=1, a=5), sep="!!!!", end="\n\n")
+# print(get_sum(1, 5, d=t))
+
+
+# def display_info(name, age):
+#     print("Name: ", name, "\nAge:", age, end="\n\n")
+#
+#
+# display_info("Ira", 23)
+# display_info(23, "Ira")
+# display_info(age=23, name="Ira")
+# #display_info("Igor", age=23, name="Ira")
+
+print("hello")
